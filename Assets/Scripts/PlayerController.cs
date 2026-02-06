@@ -35,9 +35,7 @@ public class PlayerController : MonoBehaviour
         if (shootAction.triggered)
         {
             Instantiate(foodPrefab, transform.position, Quaternion.identity);
-            Debug.Log("ok");
-            Debug.Log(shootAction.triggered);
-        }      
+        }
     }
     private void OnDrawGizmos()
     {
